@@ -1,0 +1,9 @@
+models: 
+
+# Daily time spine
+  - name: fct_orders
+    time_spine:
+      standard_granularity_column: order_date
+    columns:
+      - name: order_date
+        granularity: day
